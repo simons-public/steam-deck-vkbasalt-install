@@ -18,3 +18,5 @@ To remove, delete the following files/directories:
 /home/deck/.local/share/vulkan/implicit_layer.d/vkBasalt.json
 /home/deck/.local/share/vulkan/implicit_layer.d/vkBasalt.x86.json
 ```
+
+Thanks to DadSchoorse for [vkBasalt](https://github.com/DadSchoorse/vkBasalt). Thanks to dr460nf1r3 and the contributors at [Chaotic-AUR](https://aur.chaotic.cx/).
