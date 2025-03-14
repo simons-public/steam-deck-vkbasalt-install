@@ -23,7 +23,7 @@ fi
 DECK_HOME='/home/deck'
 AUR_BASE='https://builds.garudalinux.org/repos/chaotic-aur/x86_64/'
 
-VKBASALT_PKG_VER=$(curl ${AUR_BASE} 2>/dev/null | grep -o 'vkbasalt-.*-x86_64' | head -1)
+VKBASALT_PKG_VER=$(curl ${AUR_BASE} 2>/dev/null | grep -o 'vkbasalt-[0-9\.\-]*-x86_64' | head -1)
 VKBASALT_PKG="${VKBASALT_PKG_VER}.pkg.tar.zst"
 VKBASALT_LIB32_PKG="lib32-${VKBASALT_PKG}"
 VKBASALT_PKG_FILE=$(mktemp /tmp/vkbasalt.XXXXXX.tar.zst)
